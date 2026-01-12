@@ -1,0 +1,67 @@
+# See https://help.github.com/articles/ignoring-files for more about ignoring files.
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore all environment files.
+/.env*
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Ignore storage (uploaded files in development and any SQLite databases).
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/
+!/tmp/storage/.keep
+
+/public/assets
+
+# Ignore key files for decrypting credentials and more.
+/config/*.key
+
+# --- Ruby / Rails specific ---
+*.gem
+*.rbc
+/coverage/
+/rdoc/
+/_yardoc/
+InstalledFiles
+pkg/
+spec/reports/
+test/tmp/
+test/version_tmp/
+/config/master.key
+
+# --- OS specific ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# --- IDE / Editor specific ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.ruby-lsp/
+
+# --- Environment tools ---
+.direnv/
+.envrc
+.ruby-gemset
+.tool-versions
+
